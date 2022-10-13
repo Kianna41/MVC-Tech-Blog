@@ -1,0 +1,39 @@
+{{#each blogs as |blog|}}
+<div class="blog row mb-4">
+  <div class="col-md-4">
+    <h2>
+      <a href="/">Title</a>
+    </h2>
+  </div>
+  <div class="col-md-4">
+    <h2>
+      <a href="/">Description</a>
+    </h2>
+  </div>
+  <div class="col-md-4">
+    <h2>
+      <a href="/">Created by:</a>
+    </h2>
+  </div>
+</div>
+<div class="blog row mb-4 ">
+  <div class="col-md-4">
+    <h2>
+     {{blog.title}}
+    </h2>
+
+  </div>
+  <div class="col-md-4">
+    <h4>
+        {{blog.description}}
+    </h4>
+
+  </div>
+  <div class="col-md-4">
+    <h4>
+
+    </h4>
+  </div>
+
+
+  {{/each}}

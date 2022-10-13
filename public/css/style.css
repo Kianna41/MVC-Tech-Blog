@@ -1,0 +1,30 @@
+header,
+.project:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+  background-color: #ccc;
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #1b89bc;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.no-button:hover {
+  color: #065b83;
+  text-decoration: underline;
+}
+.naming {
+  background-color: #1b89bc;
+  color: #ccc;
+  padding: 10px;
+  max-width: 100%;
+}
+.blog {
+  background-color: #ccc;
+  padding: 20px;
+}

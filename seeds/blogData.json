@@ -1,0 +1,17 @@
+[
+  {
+    "name": "HTML",
+    "description": "Basic frameworks",
+    "user_id": 1
+  },
+  {
+    "name": "CSS",
+    "description": "Styling of the page",
+    "user_id": 1
+  },
+  {
+    "name": "SQL",
+    "description": "Using and managing databases",
+    "user_id": 3
+  }
+]
