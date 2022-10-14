@@ -14,7 +14,9 @@
 
 
 Link to heroku: https://mvc-tech-1.herokuapp.com/
+
 Link to repo: https://github.com/Kianna41/MVC-Tech-Blog
+
 Link to deployed application: https://kianna41.github.io/MVC-Tech-Blog/
 
 ## Mock Up:
