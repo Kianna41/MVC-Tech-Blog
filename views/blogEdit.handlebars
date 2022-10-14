@@ -1,0 +1,30 @@
+<form class="form new-post-form">
+  <div class="form-group">
+    <label for="post-name">Title:</label>
+    <input
+      class="form-input"
+      type="text"
+      id="post-edit-name"
+      name="post-name"
+      value="{{blogs.title}}"
+    />
+  </div>
+
+  <div class="form-group">
+    <label for="post-desc">Description:</label>
+    <textarea
+      class="form-input"
+      id="post-edit-desc"
+      name="post-desc"
+    >{{blogs.description}}</textarea>
+  </div>
+  <div class="form-group">
+    <button
+      type="submit"
+      class="btn btn-primary"
+      id="updateBtn"
+      data-id="{{blog.id}}"
+    >Update</button>
+  </div>
+</form>
+<script src="/js/update.js"></script>

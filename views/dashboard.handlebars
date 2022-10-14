@@ -19,7 +19,11 @@
         <textarea class="form-input" id="post-desc" name="post-desc"></textarea>
       </div>
       <div class="form-group">
-        <button type="submit" class="btn btn-primary">Create</button>
+        <button
+          type="submit"
+          class="btn btn-primary"
+          id="createBtn"
+        >Create</button>
       </div>
     </form>
   </div>
@@ -31,9 +35,9 @@
       {{#each blogs as |blog|}}
         <div class="row mb-2">
           <div class="col-md-8">
-            <h4><a href="/blog/{{blog.title}}">{{blog.title}}</a></h4>
-            <h5> Description: {{blog.description}}</h5>
-            <h5>Created by: {{user.name}}</h5>
+            <h4><a href="/dashboard/{{blog.id}}">{{blog.title}}</a></h4>
+            <h5> {{blog.description}}</h5>
+            <h5>{{user.name}}</h5>
           </div>
           <div class="col-md-4">
             <button
@@ -48,4 +52,4 @@
   {{/if}}
 </div>
 
-<script src="./js/profile.js"></script>
+<script src="/js/profile.js"></script>

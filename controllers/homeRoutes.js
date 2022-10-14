@@ -85,14 +85,14 @@ router.get("/dashboard/:id", withAuth, async (req, res) => {
           model: User,
         },
       ],
-      where: { blog_id: req.params.id },
+      where: { id: req.params.id },
     });
 
     // Serialize data so the template can read it
     const blog = blogData.get({ plain: true });
     // Find the logged in user based on the session ID
 
-    res.render("dashboard", {
+    res.render("blogEdit", {
       blogs: blog,
       logged_in: true,
     });
