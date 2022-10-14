@@ -12,4 +12,11 @@
 8. When the user clicks on existing posts in the dashboard, they are able to delete or update my post and taken back to an updated dashboard
 9. When the user click on the logout option in the navigation, they are signed out of the site
 
+
+Link to heroku: https://mvc-tech-1.herokuapp.com/
+Link to repo: https://github.com/Kianna41/MVC-Tech-Blog
+Link to deployed application: https://kianna41.github.io/MVC-Tech-Blog/
+
 ## Mock Up:
+<img width="1396" alt="Screen Shot 2022-10-13 at 10 10 21 PM" src="https://user-images.githubusercontent.com/107634328/195746115-2671c8da-a934-4952-938f-fabee36a15d6.png">
+
